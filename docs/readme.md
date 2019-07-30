@@ -40,3 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 # TODO:
 
 - Need to refactor using https://github.com/sequelize/express-example
+- https://sequelize.readthedocs.io/en/1.7.0/articles/express/
