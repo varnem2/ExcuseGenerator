@@ -1,0 +1,36 @@
+{
+  "name": "ExcuseGenerator",
+  "version": "1.0.0",
+  "description": "| Environmental Variable Name | Description |\r |----|----|",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varnem2/ExcuseGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varnem2/ExcuseGenerator/issues"
+  },
+  "homepage": "https://github.com/varnem2/ExcuseGenerator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sequelize": "^5.14.0",
+    "sqlite3": "^4.0.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.0.0",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^5.5.0"
+  }
+}
