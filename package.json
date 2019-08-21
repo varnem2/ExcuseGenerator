@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "startDev": "nodemon server.js"
+    "startDev": "nodemon server.js",
+    "preinstall": "npm i --build-from-resource"
   },
   "repository": {
     "type": "git",

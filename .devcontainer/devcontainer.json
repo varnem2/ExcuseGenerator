@@ -21,5 +21,6 @@
 	],
 	"appPort": [
 		3000
-	]
+	],
+	"postCreateCommand": "rm -rf ./node_modules/ package-lock.json && npm i --build-from-resource"
 }
