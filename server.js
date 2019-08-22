@@ -8,9 +8,15 @@ const app = express();
 app.use(bodyParser.json());
 
 app.get('/', (request, response) => {
-    return response.send("Yo");
+    response.send("Yo");
 });
 
-app.listen(port, () => {
-    console.log(`Server is up on port ${port}`);
+const routes = require('./routes');
+app.use('/', routes);
+
+
+db.sequelize.sync().then(() => {
+    app.listen(port, () => {
+        console.log(`Server is up on port ${port}`);
+    });
 });
